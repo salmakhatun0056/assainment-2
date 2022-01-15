@@ -103,7 +103,7 @@ nav{
 main{
     max-width: 1047px;
     height: 1662px;
-   margin: 0 auto;
+    margin: 0 auto;
 }
 .collection-title{
     text-align: center;
@@ -187,8 +187,46 @@ main{
 -----------------------*/
 
 
+/*-----------------------
+      extra work start
+----------------------------*/
+
+ .extra-work{
+     background-color: white;
+     height: 400px;
+     text-align: center;
+} 
+.final-button{
+    margin-top: 25px;
+}
+.footar-list{
+    display: grid;
+    grid-template-columns:  repeat(3, 1fr);
+    margin: 20px 0;
+    
+}
+.footar-list h3{
+    font-size: 15px;
+    color:#5E6366 ;
+}
+.footar-list li{
+    list-style: none;
+}
+.footar-list a{
+    text-decoration: none;
+    color:#5E6366 ;
+    font-size: 12px;
+}
+
+/*---------------------
+     extra-work finish
+     ----------------------- */
+
+
+
+
 /* ---------------------
-       footer star
+       footer start
 ----------------------------- */
 
 .final{
@@ -218,3 +256,9 @@ main{
 /* ----------------------
         footer end  
 ------------------------*/
+
+
+/*----------------------
+    mobile responsive 
+    ---------------------*/
+    
