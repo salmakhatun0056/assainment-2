@@ -195,6 +195,7 @@ main{
      background-color: white;
      height: 400px;
      text-align: center;
+     width: 100%;
 } 
 .final-button{
     margin-top: 25px;
@@ -257,8 +258,117 @@ main{
         footer end  
 ------------------------*/
 
+/* media quary */
+
 
 /*----------------------
     mobile responsive 
     ---------------------*/
-    
+    @media only screen and (max-width:688px) {
+      .navigation{
+          display: none;
+      }
+      .container{
+          width: 100%;
+          padding: 0;
+      }
+      .project-name{
+          font-size: 16px;
+      }
+      nav{
+          display: flex;
+          justify-content: center;
+      }
+      .start-journey{
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+          text-align: center;
+      }
+      .right-journey{
+          order: 1;
+          margin: auto 0;
+      }
+      .right-journey img{
+          width: 80%;
+          height: auto;
+      }
+      .left-journey{
+          order: 2;
+          align-items: center;
+      }
+      .left-journey h1{
+          font-size: 28px;
+      }
+      .left-journey p{
+          font-size: 14px;
+      }
+      .fa-arrow-right{
+          color: white;
+      }
+      main{
+          width: 100%;
+          height: auto;
+      }
+      .photo-album{
+          width: 329px;
+          height: auto;
+          margin: 100px auto;
+      }
+      .total-photo{
+          grid-template-columns: 1fr;
+    }
+    .collection-title{
+        text-align: center;
+        color: #3A3A3A;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    .collection-heading{
+        font-size: 28px;
+        font-weight: 700;
+        color: #18191F;
+    }
+    .prize{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .see-more-button .fa-arrow-right{
+        color:#E02C6D;
+    }
+    .extra-work{
+        height: auto;
+        width:  100%;
+    }
+    .footar-list{
+        margin: 0;
+        padding-bottom: 15px;
+    }
+    .footar-list{
+        grid-template-columns: 1fr;
+    }
+
+
+    }
+
+
+
+    @media only screen and (min-width:689px) and (max-width:1000px) {
+        .container{
+            width: 80%;
+        }
+        .total-photo{
+            grid-template-columns: repeat(2,1fr);
+            
+        }
+        .photo-album{
+            width: 690px;
+            height: auto;
+            margin: 100px auto;
+        }
+        main{
+            width: 690px;
+            height: auto;
+        }
+    }
