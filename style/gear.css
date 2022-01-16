@@ -91,7 +91,7 @@ nav{
     height: 414px;
 }
 .right-journey:hover img{
-    transform: scale(1.5);
+    transform: scale(1.2) scale(1);
     transition: transform 2s ease-in;
 }
 
