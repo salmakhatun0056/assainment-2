@@ -70,7 +70,7 @@ nav{
     margin: 20px 0;
     color:#3A3A3A ;
 }
-.primary-button{
+.primary-button {
     background-color: #E02C6D;
     padding: 10px 30px;
     color: white;
@@ -81,10 +81,9 @@ nav{
     outline: 0;
     border: 0;
 }
-.fa-arrow-right{
+.primary-button > .fa-arrow-right{
     color: white;
     font-size: 15px;
-    font-weight: 100;
 }
 .right-journey img{
     width: 100%;
