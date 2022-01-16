@@ -90,8 +90,8 @@ nav{
     width: 440px;
     height: 414px;
 }
-.right-journey:hover img{
-    transform: scale(1.2) scale(1);
+.jurney-part:hover img{
+    transform: scale(1.2) ;
     transition: transform 2s ease-in;
 }
 
@@ -367,6 +367,10 @@ main{
         .total-photo{
             grid-template-columns: repeat(2,1fr);
             
+        }
+        .right-journey img{
+            width: 100%;
+            height: auto;
         }
         .photo-album{
             width: 690px;
